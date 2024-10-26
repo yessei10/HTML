@@ -8,107 +8,143 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<h1>Moo Deng</h1>
-		<img
-			src="https://foundeast.com/wp-content/uploads/2024/10/c1_2864411_240912183648.jpg"
-			alt="baby hippo photo"
-		/>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-			Praesentium facere modi quo, cum obcaecati quis nihil tempore eos!
-			Expedita quo voluptates unde omnis molestias sit recusandae corrupti
-			vitae sint error? Dignissimos veniam iusto neque recusandae corrupti
-			aliquam sit est reprehenderit mollitia quibusdam non earum cum,
-			cupiditate repudiandae sed perspiciatis quia voluptatum fugiat.
-			Perferendis dolorum suscipit nobis perspiciatis a harum repudiandae!
-			Iure quae recusandae totam sit consequatur voluptatum pariatur
-			veritatis est nemo eius laboriosam ducimus repudiandae obcaecati
-			reiciendis cumque incidunt explicabo alias, quos, nihil voluptates
-			neque ex? Sed excepturi laboriosam odio! Repudiandae, unde nemo quod
-			vero excepturi ex quo ipsum at ab voluptatem minima iste ea magnam
-			ipsa blanditiis laudantium officia dolores iusto et fugiat quam!
-			Doloribus culpa corporis alias harum!
-		</p>
-		<table>
-			<thead>
-				<tr>
-					<th>Number</th>
-					<th>Result</th>
-					<th>Record</th>
-					<th>Opponent</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>Win</td>
-					<td>62-7-2</td>
-					<td>Keith thurman</td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>Loss</td>
-					<td>57-6-2</td>
-					<td>Floyd Mayweather Jr.</td>
-				</tr>
-				<tr>
-					<td>3</td>
-					<td>Win</td>
-					<td>56-5-2</td>
-					<td>Timothy bradley</td>
-				</tr>
-			</tbody>
-		</table>
+		<header>
+			<h1>Moo Deng</h1>
+			<img
+				src="https://foundeast.com/wp-content/uploads/2024/10/c1_2864411_240912183648.jpg"
+				alt="baby hippo photo"
+			/>
+			<nav aria-label="Main navigation">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-		<ul>
-			<li>Flyweight</li>
-			<li>Featherweight</li>
-			<li>Lightweight</li>
-			<li>Welterweight</li>
-		</ul>
+		<main>
+			<section>
+				<h2>About Moo Deng</h2>
+				<p>
+					Moo Deng is a pygmy hippopotamus living in Khao Kheow Open
+					Zoo in Si Racha, Chonburi, Thailand. She became a popular
+					Internet meme at two months of age after images of her went
+					viral online in September 2024.
+				</p>
+			</section>
 
-		<h2>Please take a short survey</h2>
+			<article>
+				<h2>Famous Fights</h2>
+				<p>
+					Moo Deng also has a competitive side! Here are some of her
+					famous boxing matches:
+				</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Number</th>
+							<th>Result</th>
+							<th>Record</th>
+							<th>Opponent</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Win</td>
+							<td>62-7-2</td>
+							<td>Keith Thurman</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Loss</td>
+							<td>57-6-2</td>
+							<td>Floyd Mayweather Jr.</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Win</td>
+							<td>56-5-2</td>
+							<td>Timothy Bradley</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
 
-		<form action="process.php" method="post">
-			<label
-				>Email Address: <input type="email" name="emailaddress"
-			/></label>
-			<br />
-			<label
-				><input type="radio" name="answer" value="yes" /> Yes, I would
-				like to receive a newsletter</label
-			>
-			<br />
-			<label
-				><input type="radio" name="answer" value="no" /> No, please do
-				not send me newsletter</label
-			>
+			<section>
+				<h2>Weight Categories</h2>
+				<p>Moo Deng competed in the following weight categories:</p>
+				<ul>
+					<li>Flyweight</li>
+					<li>Featherweight</li>
+					<li>Lightweight</li>
+					<li>Welterweight</li>
+				</ul>
+			</section>
 
-			<p>How did your know about us?</p>
-			<label
-				><input type="checkbox" name="source" value="facebook" />
-				Facebook</label
-			>
-			<br />
+			<article>
+				<h2>Please take a short survey</h2>
+				<form action="process.php" method="post">
+					<label
+						>Email Address: <input type="email" name="emailaddress"
+					/></label>
+					<br />
+					<label
+						><input type="radio" name="answer" value="yes" /> Yes, I
+						would like to receive a newsletter</label
+					>
+					<br />
+					<label
+						><input type="radio" name="answer" value="no" /> No,
+						please do not send me newsletter</label
+					>
 
-			<label
-				><input type="checkbox" name="source" value="lyka" />
-				Lyka</label
-			>
-			<br />
+					<p>How did you know about us?</p>
+					<label
+						><input
+							type="checkbox"
+							name="source"
+							value="facebook"
+						/>
+						Facebook</label
+					>
+					<br />
 
-			<label
-				><input type="checkbox" name="source" value="Google" />
-				Google</label
-			>
-			<br />
+					<label
+						><input type="checkbox" name="source" value="lyka" />
+						Lyka</label
+					>
+					<br />
 
-			<label
-				><input type="checkbox" name="source" value="Referral" />
-				Referral</label
-			>
-			<br />
-			<input type="submit" value="Submit" />
-		</form>
+					<label
+						><input type="checkbox" name="source" value="Google" />
+						Google</label
+					>
+					<br />
+
+					<label
+						><input
+							type="checkbox"
+							name="source"
+							value="Referral"
+						/>
+						Referral</label
+					>
+					<br />
+					<input type="submit" value="Submit" />
+				</form>
+			</article>
+		</main>
+
+		<footer>
+			<p>&copy; 2024 Moo Deng Fan Club | All Rights Reserved</p>
+			<nav aria-label="Footer navigation">
+				<ul>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Service</a></li>
+				</ul>
+			</nav>
+		</footer>
 	</body>
 </html>
